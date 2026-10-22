@@ -1,2 +1,2 @@
 # Newsight_website
-Website 
+Newsight Technologies  
