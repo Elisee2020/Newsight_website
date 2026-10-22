@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Softora - IT Solutions & Technology HTML Template">
+
+   <!-- Title & Favicon -->
+   <title>Team | Softora - IT Solutions & Technology HTML Template</title>
+   <link rel="shortcut icon" href="assets/img/core-img/icon.png" type="image/x-icon">
+
+   <!-- Stylesheet -->
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet" href="assets/css/tabler-icons.min.css">
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <!-- Preloader -->
+   <div class="preloader" id="preloader">
+      <div class="spinner-grow" role="status">
+         <span class="visually-hidden">Loading...</span>
+      </div>
+   </div>
+
+   <!-- Search Form Overlay -->
+   <div class="search-bg-overlay" id="searchOverlay"></div>
+
+   <!-- Search Form Popup -->
+   <div class="search-form-popup">
+      <h2 class="mb-4">How can I help you, Today?</h2>
+      <button type="button" class="close-btn" id="searchClose" aria-label="Close">
+         <i class="ti ti-x"></i>
+      </button>
+      <form class="search-form">
+         <input type="search" class="form-control" placeholder="Search...">
+         <button type="submit" class="btn btn-primary">
+            <i class="ti ti-search"></i> Search
+         </button>
+      </form>
+   </div>
+
+   <!-- Header Area-->
+   <header class="header-area style-two">
+      <!-- Header Top -->
+      <div class="header-top">
+         <div class="container h-100 d-flex align-items-center justify-content-between">
+            <!-- Left Side -->
+            <div class="left-side d-flex align-items-center gap-4 gap-lg-5">
+               <div class="d-flex align-items-center gap-2 text-white">
+                  <i class="ti ti-mail-filled"></i>
+                  <span class="d-none d-lg-block">info@newsight.com</span>
+               </div>
+               <div class="d-flex align-items-center gap-2 text-white">
+                  <i class="ti ti-map-pin-filled"></i>
+                  <span class="d-none d-lg-block">35Av Butembo, Goma DR Congo</span>
+               </div>
+               <div class="d-flex align-items-center gap-2 text-white">
+                  <i class="ti ti-phone"></i>
+                  <span class="d-none d-lg-block">+243 975 041 411</span>
+               </div>
+            </div>
+
+            <!-- Right Side -->
+            <div class="right-side">
+               <div class="social-nav d-flex align-items-center gap-3">
+                  <a
+                     href="https://web.facebook.com/people/NewSight-Technologies/100063937869709/?mibextid=wwXIfr&rdid=kKK9k2VkdPqgcBkP&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1G3HQUti5u%2F%3Fmibextid%3DwwXIfr%26ref%3D1%26_rdc%3D1%26_rdr">
+                     <i class="ti ti-brand-facebook"></i>
+                  </a>
+                  <a href="https://x.com/newsighttech2?s=11">
+                     <i class="ti ti-brand-x"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/newsight-technologies-sarl/">
+                     <i class="ti ti-brand-linkedin"></i>
+                  </a>
+                  <a href="https://www.instagram.com/newsight_tech?stkn=MW45aGwzYWlrajB5aw%3D%3D&utm_source=qr">
+                     <i class="ti ti-brand-instagram"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg">
+         <div class="container">
+            <!-- Navbar Brand -->
+            <a class="navbar-brand" href="index.html">
+               <img src="assets/img/core-img/log.PNG" alt="" style="width: 180px; height: 78px;">
+            </a>
+
+            <!-- Navbar Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#softoraNav"
+               aria-controls="softoraNav" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="ti ti-category"></i>
+            </button>
+
+            <!-- Navbar Nav -->
+            <div class="collapse navbar-collapse justify-content-between" id="softoraNav">
+               <ul class="navbar-nav navbar-nav-scroll">
+                  <li class="softora-dd">
+                     <a href="#">Home <!--<i class="ti ti-caret-down-filled"></i>--></a>
+                     <!--<ul class="softora-dd-menu">
+                        <li>
+                           <a href="index.html">IT Service</a>
+                        </li>
+                        <li>
+                           <a href="home-2.html">AI Agency</a>
+                        </li>
+                        <li>
+                           <a href="home-3.html">Cyber Security</a>
+                        </li>
+                        <li>
+                           <a href="home-4.html">Big Data Analytics</a>
+                        </li>
+                     </ul>-->
+                  </li>
+                  <li class="softora-dd">
+                     <a href="#">Pages <i class="ti ti-caret-down-filled"></i></a>
+                     <ul class="softora-dd-menu">
+                        <li class="softora-dd">
+                           <a href="about-us.html">About Us</a>
+                        </li>
+                        <li class="softora-dd">
+                           <a href="#">Service <i class="ti ti-caret-right-filled"></i></a>
+                           <ul class="softora-dd-menu">
+                              <li>
+                                 <a href="service.html">Service</a>
+                              </li>
+                              <li>
+                                 <a href="service-details.html">Service Details</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="softora-dd">
+                           <a href="#">Team <i class="ti ti-caret-right-filled"></i></a>
+                           <ul class="softora-dd-menu">
+                              <li>
+                                 <a href="team.html">Team</a>
+                              </li>
+                              <li>
+                                 <a href="team-details.html">Team Details</a>
+                              </li>
+                           </ul>
+                        </li>
+
+                        <li>
+                           <a href="faqs.html">FAQs</a>
+                        </li>
+
+                     </ul>
+                  </li>
+                  <li class="softora-dd">
+                     <a href="portfolio-masonry.html">Portfolio</a>
+
+                  </li>
+                  <li class="softora-dd">
+                     <a href="blog-grid.html">Blog</a>
+
+                  </li>
+                  <li class="softora-dd">
+                     <a href="contact.html">Contact</a>
+                  </li>
+               </ul>
+
+               <div class="d-flex align-items-center mt-4 mt-lg-0">
+                  <!-- Search Button -->
+                  <div class="header-search-btn" id="searchButton">
+                     <button class="btn">
+                        <i class="ti ti-search"></i>
+                     </button>
+                  </div>
+
+                  <!-- Button -->
+                  <a href="contact.html" class="btn btn-primary">
+                     Get in Touch <i class="ti ti-arrow-up-right"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <!-- Breadcrumb Section -->
+   <div class="breadcrumb-section bg-img" style="background-image: url('assets/img/bg-img/90.jpg');">
+      <div class="container">
+         <!-- Breadcrumb Content -->
+         <div class="breadcrumb-content">
+            <div class="divider"></div>
+            <h2>Our Team</h2>
+            <ul class="list-unstyled">
+               <li><a href="index.html">Home</a></li>
+               <li>Our Team</li>
+            </ul>
+         </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="divider"></div>
+   </div>
+
+   <!-- Team Members Section -->
+   <section class="team-section">
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <div class="container">
+         <div class="row g-4 justify-content-center">
+            <!-- Section Heading -->
+            <div class="col-12 col-md-7">
+               <div class="section-heading text-center">
+                  <span class="sub-title">Our Team</span>
+                  <h2 class="mb-0">Our Expert Team is Always Ready to Help you</h2>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="divider-sm"></div>
+
+      <div class="container">
+         <div class="row g-4 g-lg-5 justify-content-center">
+            <!-- Team Card -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+               <div class="team-two-card">
+                  <!-- Team Thumbnail -->
+                  <div class="team-thumbnail">
+                     <img src="assets/img/bg-img/83.jpg" alt="">
+                     <!-- Team Social -->
+                     <div class="team-social">
+                        <a href="#"><i class="ti ti-brand-facebook"></i></a>
+                        <a href="#"><i class="ti ti-brand-x"></i></a>
+                        <a href="#"><i class="ti ti-brand-linkedin"></i></a>
+                        <a href="#"><i class="ti ti-brand-instagram"></i></a>
+                     </div>
+                  </div>
+                  <!-- Team Member Info -->
+                  <div class="team-member-info">
+                     <h4 class="mb-1">Leslie Alexander</h4>
+                     <p class="mb-0">Ceo & Owner</p>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Team Card -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+               <div class="team-two-card">
+                  <!-- Team Thumbnail -->
+                  <div class="team-thumbnail">
+                     <img src="assets/img/bg-img/84.jpg" alt="">
+                     <!-- Team Social -->
+                     <div class="team-social">
+                        <a href="#"><i class="ti ti-brand-facebook"></i></a>
+                        <a href="#"><i class="ti ti-brand-x"></i></a>
+                        <a href="#"><i class="ti ti-brand-linkedin"></i></a>
+                        <a href="#"><i class="ti ti-brand-instagram"></i></a>
+                     </div>
+                  </div>
+                  <!-- Team Member Info -->
+                  <div class="team-member-info">
+                     <h4 class="mb-1">Brooklyn Simmons</h4>
+                     <p class="mb-0">Manager</p>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Team Card -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+               <div class="team-two-card">
+                  <!-- Team Thumbnail -->
+                  <div class="team-thumbnail">
+                     <img src="assets/img/bg-img/85.jpg" alt="">
+                     <!-- Team Social -->
+                     <div class="team-social">
+                        <a href="#"><i class="ti ti-brand-facebook"></i></a>
+                        <a href="#"><i class="ti ti-brand-x"></i></a>
+                        <a href="#"><i class="ti ti-brand-linkedin"></i></a>
+                        <a href="#"><i class="ti ti-brand-instagram"></i></a>
+                     </div>
+                  </div>
+                  <!-- Team Member Info -->
+                  <div class="team-member-info">
+                     <h4 class="mb-1">Leslie Alexander</h4>
+                     <p class="mb-0">Co-founder</p>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Team Card -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+               <div class="team-two-card">
+                  <!-- Team Thumbnail -->
+                  <div class="team-thumbnail">
+                     <img src="assets/img/bg-img/86.jpg" alt="">
+                     <!-- Team Social -->
+                     <div class="team-social">
+                        <a href="#"><i class="ti ti-brand-facebook"></i></a>
+                        <a href="#"><i class="ti ti-brand-x"></i></a>
+                        <a href="#"><i class="ti ti-brand-linkedin"></i></a>
+                        <a href="#"><i class="ti ti-brand-instagram"></i></a>
+                     </div>
+                  </div>
+                  <!-- Team Member Info -->
+                  <div class="team-member-info">
+                     <h4 class="mb-1">Ronald Richards</h4>
+                     <p class="mb-0">Manager</p>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Team Card -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+               <div class="team-two-card">
+                  <!-- Team Thumbnail -->
+                  <div class="team-thumbnail">
+                     <img src="assets/img/bg-img/109.jpg" alt="">
+                     <!-- Team Social -->
+                     <div class="team-social">
+                        <a href="#"><i class="ti ti-brand-facebook"></i></a>
+                        <a href="#"><i class="ti ti-brand-x"></i></a>
+                        <a href="#"><i class="ti ti-brand-linkedin"></i></a>
+                        <a href="#"><i class="ti ti-brand-instagram"></i></a>
+                     </div>
+                  </div>
+                  <!-- Team Member Info -->
+                  <div class="team-member-info">
+                     <h4 class="mb-1">Thomas Tatum</h4>
+                     <p class="mb-0">Ceo & Owner</p>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Team Card -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+               <div class="team-two-card">
+                  <!-- Team Thumbnail -->
+                  <div class="team-thumbnail">
+                     <img src="assets/img/bg-img/108.jpg" alt="">
+                     <!-- Team Social -->
+                     <div class="team-social">
+                        <a href="#"><i class="ti ti-brand-facebook"></i></a>
+                        <a href="#"><i class="ti ti-brand-x"></i></a>
+                        <a href="#"><i class="ti ti-brand-linkedin"></i></a>
+                        <a href="#"><i class="ti ti-brand-instagram"></i></a>
+                     </div>
+                  </div>
+                  <!-- Team Member Info -->
+                  <div class="team-member-info">
+                     <h4 class="mb-1">Hazel Gerber</h4>
+                     <p class="mb-0">Manager</p>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Team Card -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+               <div class="team-two-card">
+                  <!-- Team Thumbnail -->
+                  <div class="team-thumbnail">
+                     <img src="assets/img/bg-img/107.jpg" alt="">
+                     <!-- Team Social -->
+                     <div class="team-social">
+                        <a href="#"><i class="ti ti-brand-facebook"></i></a>
+                        <a href="#"><i class="ti ti-brand-x"></i></a>
+                        <a href="#"><i class="ti ti-brand-linkedin"></i></a>
+                        <a href="#"><i class="ti ti-brand-instagram"></i></a>
+                     </div>
+                  </div>
+                  <!-- Team Member Info -->
+                  <div class="team-member-info">
+                     <h4 class="mb-1">Landon Legend</h4>
+                     <p class="mb-0">Manager</p>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Team Card -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+               <div class="team-two-card">
+                  <!-- Team Thumbnail -->
+                  <div class="team-thumbnail">
+                     <img src="assets/img/bg-img/106.jpg" alt="">
+                     <!-- Team Social -->
+                     <div class="team-social">
+                        <a href="#"><i class="ti ti-brand-facebook"></i></a>
+                        <a href="#"><i class="ti ti-brand-x"></i></a>
+                        <a href="#"><i class="ti ti-brand-linkedin"></i></a>
+                        <a href="#"><i class="ti ti-brand-instagram"></i></a>
+                     </div>
+                  </div>
+                  <!-- Team Member Info -->
+                  <div class="team-member-info">
+                     <h4 class="mb-1">Alice McGinnis</h4>
+                     <p class="mb-0">Manager</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="divider"></div>
+   </section>
+
+   <!-- CTA Wrapper -->
+   <div class="cta-wrapper bg-img" style="background-image: url(assets/img/core-img/grid.jpg)">
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <div class="container">
+         <div class="row g-4 g-xl-5 align-items-center">
+            <div class="col-12 col-lg-6 col-xl-7">
+               <h2 class="mb-0 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Start Building Your
+                  Business Now</h2>
+            </div>
+
+            <div class="col-12 col-lg-6 col-xl-5">
+               <p class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">Communicate your pricing
+                  clearly and transparently to build trust with your customers. Hidden fees or
+                  unclear pricing structures can lead to dissatisfaction.</p>
+               <a href="pricing.html" class="btn btn-primary btn-hover-border wow fadeInUp" data-wow-duration="1000ms"
+                  data-wow-delay="800ms">Get Started <i class="ti ti-arrow-up-right"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="divider"></div>
+   </div>
+
+   <!-- Footer -->
+   <footer class="footer-wrapper">
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <div class="container">
+         <div class="row g-5">
+            <!-- Footer Card -->
+            <div class="col-12 col-sm-6 col-lg-4">
+               <div class="footer-card pe-lg-5">
+                  <a href="#" class="d-block mb-4">
+                     <img src="assets/img/core-img/logo.png" alt="">
+                  </a>
+                  <p class="mb-0">Each demo built with Teba will look different. You can customize almost anything in
+                     the appearance of your website with only a few.</p>
+
+                  <!-- Social Nav -->
+                  <div class="social-nav">
+                     <a href="#">
+                        <i class="ti ti-brand-facebook"></i>
+                     </a>
+                     <a href="#">
+                        <i class="ti ti-brand-x"></i>
+                     </a>
+                     <a href="#">
+                        <i class="ti ti-brand-linkedin"></i>
+                     </a>
+                     <a href="#">
+                        <i class="ti ti-brand-instagram"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Footer Card -->
+            <div class="col-12 col-sm-6 col-lg">
+               <div class="footer-card">
+                  <h5 class="mb-4">Quick Links</h5>
+
+                  <!-- Footer Nav -->
+                  <ul class="footer-nav">
+                     <li><a href="#">About Us</a></li>
+                     <li><a href="#">Our Team</a></li>
+                     <li><a href="#">Pricing Plans</a></li>
+                     <li><a href="#">Blogs</a></li>
+                     <li><a href="#">Contact Us</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <!-- Footer Card -->
+            <div class="col-12 col-sm-6 col-lg">
+               <div class="footer-card">
+                  <h5 class="mb-4">Services</h5>
+
+                  <!-- Footer Nav -->
+                  <ul class="footer-nav">
+                     <li><a href="#">UI/UX Design</a></li>
+                     <li><a href="#">App Development</a></li>
+                     <li><a href="#">Digital Marketing</a></li>
+                     <li><a href="#">Web Development</a></li>
+                     <li><a href="#">Cyber Security</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <!-- Footer Card -->
+            <div class="col-12 col-sm-6 col-lg">
+               <div class="footer-card">
+                  <h5 class="mb-4">Information</h5>
+
+                  <!-- Footer Nav -->
+                  <ul class="footer-nav">
+                     <li><a href="#">Working Process</a></li>
+                     <li><a href="#">Privacy Policy</a></li>
+                     <li><a href="#">Terms &amp; Conditions</a></li>
+                     <li><a href="#">Faqs</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <!-- Copyright Wrapper -->
+      <div class="copyright-wrapper">
+         <div class="container">
+            <div class="row align-items-center">
+               <!-- Copyright -->
+               <div class="col-12 col-md-6">
+                  <p class="mb-3 mb-md-0 copyright">Copyright © <span id="year">2026</span> <a
+                        href="index.html">NewSight-Technologies</a>
+                     All
+                     rights
+                     reserved.</p>
+               </div>
+
+               <!-- Footer Bottom Nav -->
+               <div class="col-12 col-md-6">
+                  <div class="footer-bottom-nav">
+                     <a href="#">Privacy &amp; Terms</a>
+                     <a href="#">FAQ</a>
+                     <a href="#">Contact Us</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <!-- Scroll To Top -->
+   <button id="scrollTopButton" class="softora-scrolltop scrolltop-hide">
+      <i class="ti ti-arrow-up"></i>
+   </button>
+
+   <!-- All JavaScript Files-->
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/slideToggle.min.js"></script>
+   <script src="assets/js/swiper-bundle.min.js"></script>
+   <script src="assets/js/jarallax.min.js"></script>
+   <script src="assets/js/index.js"></script>
+   <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+   <script src="assets/js/isotope.pkgd.min.js"></script>
+   <script src="assets/js/wow.min.js"></script>
+   <script src="assets/js/active.js"></script>
+
+</body>
+
+</html>
